@@ -1,0 +1,23 @@
+/* Resetar as definições do navegador*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Metal Mania', serif;
+}
+
+.bg-cor-menu {
+    background: rgb(71, 120, 145);
+}
+
+#navbar-items .navbar-nav {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+#navbar-items a {
+    color: white;
+    font-size: 1.2em;
+    margin-left: 2em;
+}
