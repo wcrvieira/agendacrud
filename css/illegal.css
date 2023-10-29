@@ -3,19 +3,23 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-rendering: optimizeLegibility;
     font-family: 'Metal Mania', serif;
 }
 
+/* Definindo a cor do menu */
 .bg-cor-menu {
     background: rgb(71, 120, 145);
 }
 
+/* Organizando os itens do menu */
 #navbar-items .navbar-nav {
     display: flex;
     justify-content: flex-end;
     width: 100%;
 }
 
+/* Ajustando os links */
 #navbar-items a {
     color: white;
     font-size: 1.2em;
