@@ -4,12 +4,16 @@
     padding: 0;
     box-sizing: border-box;
     text-rendering: optimizeLegibility;
-    font-family: 'Metal Mania', serif;
+    font-family: 'Roboto', serif;   
 }
 
 /* Definindo a cor do menu */
 .bg-cor-menu {
-    background: rgb(71, 120, 145);
+    background: rgb(156, 174, 183);
+}
+
+.bg-crud {
+  background: hsl(151, 32%, 77%);
 }
 
 /* Organizando os itens do menu */
@@ -25,3 +29,184 @@
     font-size: 1.2em;
     margin-left: 2em;
 }
+
+/* Definições do slider (galeria) */
+#slider {
+    margin-top: 6em;
+    margin-bottom: 1em;
+  }
+  
+  #slider .carousel-caption {
+    bottom: 3em;
+  }
+  
+  #slider .carousel-caption h5 {
+    font-size: 2.5em;
+    text-shadow: #000 2px 2px;
+  }
+  
+  .btn {
+    border-radius: 0;
+  }
+  
+  #slider .btn {
+    padding: 0.3em 0.8em;
+    font-size: 1em;
+    margin-top: 1em;
+  }
+  
+  .carousel-control-prev,
+  .carousel-control-next {
+    opacity: 0.7;
+  }
+  
+  .carousel-control-prev i,
+  .carousel-control-next i {
+    color: rgb(233, 229, 229);
+    font-size: 3em;
+  }
+  
+  .carousel-indicators [data-bs-target] {
+    background-color: rgb(231, 204, 204);
+    opacity: 0.8;
+  }
+  
+  .carousel-indicators .active {
+    background-color: #000;
+  }
+  
+  @media (min-width: 768px) {
+    #slider .carousel-caption {
+      bottom: 7em;
+    }
+    #slider .carousel-caption h5 {
+      font-size: 4em;
+      text-shadow: #000 2px 3px;
+    }
+    #slider .btn {
+      padding: 0.6em 1.6em;
+      font-size: 1.2em;
+      margin-top: 1em;
+    }
+    .carousel-indicators {
+      bottom: 5em;
+    }
+  }
+
+  /* Definições do Accordion */
+  #topics-container {
+    font-size: 1.2rem;
+  }
+
+  /* Definições dos cards */
+  #cards-container {
+    margin-top: 2rem;
+  }
+
+/* FOOTER TOP */
+#footer {
+    margin-top: 1rem;
+    padding: 1rem;
+  }
+  
+  #footer-top {
+    margin-bottom: 1rem;
+  }
+  
+  #footer-top,
+  #footer-top i {
+    color: #fff;
+  }
+  
+  #social-icons {
+    text-align: right;
+  }
+  
+  #social-icons i {
+    margin-right: 1em;
+    font-size: 1.5em;
+    cursor: pointer;
+  }
+  
+  #social-icons i:hover {
+    color: #7a7a7a;
+  }
+  
+  /* FOOTER DETAILS */
+  #footer-details {
+    margin-bottom: 1rem;
+  }
+  
+  #news-container,
+  #contact-container,
+  #links-container {
+    padding: 0;
+    border: 0;
+    margin-bottom: 1em;
+  }
+  
+  #footer-details h4 {
+    color: #fff;
+    margin-bottom: 1.5em;
+  }
+  
+  #news-container input {
+    border-radius: 0;
+    border: none;
+  }
+  
+  #links-container li {
+    margin-bottom: 0.5em;
+  }
+  
+  #links-container a {
+    text-decoration: none;
+  }
+  
+  #links-container a:hover {
+    color: #fff;
+  }
+  
+  /* FOOTER BOTTOM */
+  #footer-bottom {
+    border-top: 1px solid #7a7a7a;
+    padding-top: 2em;
+  }
+  
+  #footer-bottom i {
+    color: #e61e10;
+  }
+  
+  @media (min-width: 768px) {
+    #news-container {
+      padding-right: 2em;
+    }
+  
+    #contact-container {
+      padding: 0 2em;
+      border-left: 1px solid #7a7a7a;
+      border-right: 1px solid #7a7a7a;
+    }
+  
+    #links-container {
+      padding-left: 2em;
+    }
+  }
+  
+  #modalCreate {
+    opacity: 1;
+  }
+
+  .cadastro {
+    font-size: 1.2em;
+  }
+
+  #botao {
+    width: 6em;
+    font-size: 1.3em;
+  }
+
+  #input~ {
+    font-size: 1.2em;
+  }
+  
